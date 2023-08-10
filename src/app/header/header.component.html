@@ -6,17 +6,17 @@
     <nav class="main-header__menu">
       <ul>
         <li>
-          <a>Produtos</a>
+          <a href="http://localhost:4200/produtos">Produtos</a>
         </li>
         <li>
-          <a>
+          <a href="http://localhost:4200/carrinho">
             <i class="fa-solid fa-cart-shopping"></i>
             Carrinho
             <span class="badge-carrinho">{{carrinhoService.obtemCarrinho().length}}</span>
           </a>
         </li>
         <li>
-          <a>Contato</a>
+          <a href="http://localhost:4200/contato">Contato</a>
         </li>
         <li>
           <a><i class="fa-brands fa-facebook-f"></i></a>
@@ -33,7 +33,7 @@
       </ul>
     </nav>
     <form class="search-form">
-      <input type="texto">
+      <input type="texto" placeholder="pesquise aqui o produto" >
       <button><i class="fa-solid fa-magnifying-glass"></i></button>
     </form>
   </div>
